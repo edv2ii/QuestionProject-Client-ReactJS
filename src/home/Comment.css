@@ -1,0 +1,201 @@
+.Home .padd {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.Home .container {
+    margin-top: 60px;
+    display: block;
+    width: 840px;
+}
+
+
+@media (max-width:1000px) {
+    .Home .container, .Home .comment-item {
+        width: 630px;
+    }
+    
+}
+
+@media (max-width:800px) {
+    .Home .container, .Home .comment-item {
+        width: 420px;
+    }
+}
+
+@media  (max-width:499px) {
+    .Home .container{
+        width: 340px;
+    }
+    
+    .Home .comment-item ul li {
+        max-width: 160px;
+        max-height: 100px;
+    }
+    .Home .container .comment-item ul li .head  {
+        border-radius: 20px 20px 0 0;
+        
+    }
+    
+    .Home .comment-item ul li .head  h6 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 15px !important; 
+       
+    }
+    
+    .Home .comment-item ul li .body {
+        height: 63px !important;
+        white-space: wrap;
+        overflow-wrap: normal;
+        overflow-x: hidden;
+    }
+    
+    .Home .comment-item ul li .body h6 {
+        width: 155px;
+        font-size: 13px !important; 
+        
+    }
+    
+   
+    
+}
+
+@media (max-width:396px) {
+    .Home .container{
+        width: 270px;
+    }
+
+    .container-item {
+    }
+    
+    .Home .comment-item ul li {
+        max-width: 125px;
+        max-height: 90px;
+    }
+    
+    .Home .comment-item ul li .head h6  {
+        font-size: 14px !important; 
+
+    }
+
+    .Home .comment-item ul li .body {
+        height: 53px !important;
+
+        white-space: wrap;
+        overflow-x: hidden;
+    }
+    .Home .comment-item ul li .body h6 {
+        width: 105px;
+        font-size: 12px !important; 
+        line-height: 15px !important;
+    }
+}
+
+
+.Home .titles h6 {
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    color: #FFA72E;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.Home .comment.hide {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+    list-style: none;
+
+}
+
+.Home .comment-item {
+    width: 840px;
+}
+
+.Home .comment-item ul {
+    flex-wrap: wrap;
+    
+}
+
+.Home .comment-item ul li {
+    width: 200px;
+    height: 130px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(230, 230, 230);
+
+}
+
+.Home .comment-item ul li .head  {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(20deg ,#FFF687, #F6416C) ;
+    white-space: nowrap;
+    border-radius: 20px 20px 0 0;
+   
+
+}
+
+.Home .comment-item ul li .head  h6 {
+    font-size: 18px;
+    max-width: 200px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+   
+}
+
+.Home .comment-item ul li .body {
+    height: 94px;
+    white-space: wrap !important;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+
+.Home .comment-item ul li .body::-webkit-scrollbar {
+    display: none;
+}
+
+.Home .comment-item ul li .body h6 {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 193px;
+    padding-top: 6px;
+    padding-left: 10px;
+    line-height: 18px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.Home .scroll-item {
+    width: 100%;
+    height: 420px;
+    overflow: auto;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.Home .scroll-item::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.justify-content-center {
+    justify-content: center;
+}
